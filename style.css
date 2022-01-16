@@ -1,0 +1,35 @@
+body {
+  background: #111;
+  color: white;
+  font: 400 15px sans-serif;
+}
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+a::after {
+  content: '🔗';
+}
+img {
+  width: 100%;
+  margin: 10px auto;
+  max-width: 300px;
+  border-radius: 8282px;
+  filter: grayscale(1);
+  transition: filter .3s;
+  display: block;
+}
+img:hover {
+  filter: none;
+}
+h1 {
+  text-align: center;
+}
+::selection {
+  background: red;
+  color: white;
+}
+.clean-inputs input {
+  display: block;
+  margin: 10px auto;
+}
